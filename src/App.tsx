@@ -30,7 +30,7 @@ function App() {
         <header className="sticky top-0 backdrop-blur-sm bg-black-900/80 border-b border-white-100">
           <div className="container mx-auto flex justify-between items-center p-4">
             <div className="text-xl font-bold">
-              <img src="/Solana Agent Kit lnglogo.png" alt="SOLANA AGENT KIT" className="h-6" />
+              <img src="/offical solak lng logo.png" alt="SOLANA AGENT KIT" className="h-6" />
             </div>
             <div className="flex gap-4">
               <a href="https://x.com/_SolanaAgentKit" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
@@ -46,18 +46,16 @@ function App() {
         {/* Main Content */}
         <main className="container mx-auto px-6 mt-20">
           <div className="max-w-3xl">
-            <h1 className="text-6xl font-bold mb-2">
+            <h1 className="text-6xl font-bold mb-9">
               Connect any AI
               <br />
-              Agents to <span className="text-cyan-400">Solana</span>
+              Agents to <span className="text-purple-400">Solana</span>
               <br />
               Protocols
             </h1>
 
-            <div className="mt-4 text-gray-400">SendAI</div>
-
             <div className="mt-8 space-y-4">
-              <div className="flex gap-4 items-center">
+              <div className="flex gap-4 items-center mb-9">
                 <a 
                   href="https://github.com/sendaifun/solana-agent-kit" 
                   target="_blank" 
@@ -133,7 +131,7 @@ function App() {
               href="https://github.com/sendaifun/solana-agent-kit?tab=readme-ov-file#-core-blockchain-features"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border border-gray-800 rounded-lg hover:border-pink-500 cursor-pointer group backdrop-blur-sm bg-black/30"
+              className="p-6 border border-gray-800 rounded-lg hover:border-pink-500 cursor-pointer group backdrop-blur-sm bg-black/30 mb-5"
             >
               <h3 className="text-xl font-semibold text-pink-500 mb-2">Launch tokens on AMMs</h3>
               <p className="text-gray-400">Create AMM pools on top Solana DEXs like Meteora, Raydium, and Orca</p>
@@ -144,7 +142,7 @@ function App() {
               href="https://github.com/sendaifun/solana-agent-kit?tab=readme-ov-file#lend-tokens"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border border-gray-800 rounded-lg hover:border-blue-500 cursor-pointer group backdrop-blur-sm bg-black/30"
+              className="p-6 border border-gray-800 rounded-lg hover:border-blue-500 cursor-pointer group backdrop-blur-sm bg-black/30 mb-5"
             >
               <h3 className="text-xl font-semibold text-blue-500 mb-2">Execute Solana Blinks (Actions)</h3>
               <p className="text-gray-400">Lend on Lulo or Play on SEND Arcade or stake your SOL for JupSOL</p>
@@ -155,12 +153,15 @@ function App() {
               href="https://github.com/sendaifun/solana-agent-kit?tab=readme-ov-file#quick-start"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 border border-gray-800 rounded-lg hover:border-cyan-400 cursor-pointer group backdrop-blur-sm bg-black/30"
+              className="p-6 border border-gray-800 rounded-lg hover:border-cyan-400 cursor-pointer group backdrop-blur-sm bg-black/30 mb-5"
             >
               <h3 className="text-xl font-semibold text-cyan-400 mb-2">AI Integrations</h3>
               <p className="text-gray-400">From Langchain to Open AI's GPT and DALL-E and more!</p>
             </a>
-          </div>
+           </div>
+           <div className="mt-4 text-gray-400"></div><div className="text-xl font-bold">
+              <img src="/footer Solana Agent Kit lnglogo.png" alt="SOLANA AGENT KIT" className="max-w-[540px] w-full max-h-[540px] h-full flex gap-4 animate-fade-up delay-3 h-6 container mx-auto flex justify-between items-center" />
+            </div>
         </main>
       </div>
     </div>
